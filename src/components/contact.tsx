@@ -1,4 +1,4 @@
-import { Button } from "./button";
+
 
 interface ImageClipBoxProps {
   src: string;

@@ -106,7 +106,9 @@ export default function CardSlider() {
           {cards.map((card, index) => (
             <div
               key={card.id}
-              ref={(el) => (cardsRef.current[index] = el)}
+              ref={(el) => {
+                cardsRef.current[index] = el;
+              }}
               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[340px] bg-white rounded-3xl shadow-xl overflow-hidden transition-shadow hover:shadow-2xl"
             >
               <div className="relative h-48 overflow-hidden">

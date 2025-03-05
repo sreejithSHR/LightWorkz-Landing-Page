@@ -13,7 +13,7 @@ export const FeaturesAbout = () => {
   const imagesRef = useRef<(HTMLDivElement | null)[]>([]);
   
   useEffect(() => {
-    imagesRef.current.forEach((image, index) => {
+    imagesRef.current.forEach((image) => {
       if (!image) return;
       gsap.fromTo(
         image,
@@ -90,7 +90,10 @@ export const FeaturesAbout = () => {
           ].map((src, index) => (
             <div
               key={index}
-              ref={(el) => (imagesRef.current[index] = el)}
+              ref={(el) => {
+                imagesRef.current[index] = el;
+              }}
+              
               onMouseMove={(e) => handleMouseMove(e, index)}
               onMouseLeave={() => handleMouseLeave(index)}
               className="relative  w-[300px] h-[400px] md:w-[400px] md:h-[500px]  overflow-hidden shadow-lg"
