@@ -2,7 +2,7 @@
 
 import type React  from "react"
 
-import { useRef, useEffect, JSX } from "react"
+import { useRef, useEffect } from "react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { AnimatedTitle } from "../animated-title"
