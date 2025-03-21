@@ -28,7 +28,7 @@ export const Footer = () => {
             href="#"
             className="text-center text-sm transition hover:underline hover:opacity-75 md:text-right"
           >
-            Created by
+            Crafted by
           </a>
 
           <b>|</b>

@@ -112,15 +112,7 @@ export const Navbar = () => {
                   })}
               </button>
 
-              <a
-                href={LINKS.sourceCode}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="transition hover:opacity-75"
-                title="Source Code"
-              >
-                <FaGithub className="size-5 text-white" />
-              </a>
+              
             </div>
           </div>
         </nav>

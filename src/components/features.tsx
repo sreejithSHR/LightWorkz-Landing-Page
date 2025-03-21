@@ -64,7 +64,7 @@ const BentoCard = ({ src, title, description }: BentoCardProps) => {
 
       <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
         <div>
-          <h1 className="bento-title special-font">{title}</h1>
+          <h1 className="bento-title text-yellow-300 special-font">{title}</h1>
           {description && (
             <p className="tetx-xl mt-3 max-w-64 md:text-base">{description}</p>
           )}
@@ -96,7 +96,7 @@ export const Features = () => {
                 Soci<b>a</b>l M<b>e</b>dia Br<b>a</b>nd<b>i</b>ng
               </>
             }
-            description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+            description="Management and Engament of Content and Audience Through various Platforms"
           />
         </BentoTilt>
 
@@ -112,7 +112,7 @@ export const Features = () => {
                   Digit<b>a</b>l Ph<b>o</b>t<b>o</b>gr<b>a</b>phy & 3D De<b>s</b>ign
                 </>
               }
-              description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+              description="Digital Photography for your Professional and Creative Looks and 3D design for you Products & Services"
             />
           </BentoTilt>
 
@@ -124,7 +124,7 @@ export const Features = () => {
                   m<b>O</b>TION Grap<b>h</b>ics
                 </>
               }
-              description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+              description="Approach on High intense with your Audience through content with Motion Graphics Videos."
             />
           </BentoTilt>
 
@@ -133,10 +133,10 @@ export const Features = () => {
               src="/videos/feature-4.mp4"
               title={
                 <>
-                  az<b>u</b>l
+                 
                 </>
               }
-              description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+              description=""
             />
           </BentoTilt>
 

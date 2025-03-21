@@ -71,8 +71,7 @@ export const Hero = () => {
             </h1>
 
             <p className="mb-5 max-w-64 font-robert-regular text-white">
-              Enter the Metagame Layer <br />
-              Unleash the Play Economy
+              Grow To the Unknown Heights of Your Business
             </p>
 
             <Button id="watch-trailer" leftIcon={TiLocationArrow} containerClass="bg-yellow-300 flex-center gap-1">
