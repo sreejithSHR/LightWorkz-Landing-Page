@@ -181,10 +181,9 @@ export const FeaturesAbout = () => {
         </div>
 
         {/* About Text Below Images */}
-        <div className="text-center mt-16 max-w-2xl mx-auto">
-          <p className="font-light text-black uppercase tracking-wide text-sm md:text-xs">
-            We collaborate with enterprises to craft unique digital experiences, offering cutting-edge solutions to
-            industry-wide challenges.
+        <div className="text-center  max-w-3xl mx-auto">
+          <p className="font-medium text-black mx-2  tracking-widest text-lg md:text-lg">
+          Welcome to Lightworkz Media, where creativity meets strategy to build powerful digital identities. We are a passionate team of storytellers, marketers, and visual artists dedicated to helping small businesses, startups, and vendors establish a strong digital presence. 
           </p>
 
           <div className="flex justify-center items-center mt-10 mb-10">
@@ -193,9 +192,7 @@ export const FeaturesAbout = () => {
             </Button>
           </div>
 
-          <p className="font-light text-black uppercase tracking-wide text-sm md:text-xs">
-            We specialize in crafting immersive digital solutions...
-          </p>
+          
         </div>
       </div>
 

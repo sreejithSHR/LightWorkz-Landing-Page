@@ -76,7 +76,7 @@ export const Hero = () => {
             </p>
 
             <Button id="watch-trailer" leftIcon={TiLocationArrow} containerClass="bg-yellow-300 flex-center gap-1">
-              Watch Trailer
+              Explore Now
             </Button>
           </div>
         </div>
