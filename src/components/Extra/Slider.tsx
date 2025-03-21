@@ -20,23 +20,23 @@ export default function CardSlider() {
   const cards: Card[] = [
     {
       id: 1,
-      image: "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg",
-      title: "What happened in Thailand?",
-      description: "Kayaks crowd Three Sisters Springs, where people and manatees maintain controversial coexistence.",
+      image: "https://images.pexels.com/photos/6592647/pexels-photo-6592647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "Audience engagememt",
+      description: "Connect, interact, and build lasting relationships for long term Services ",
       rating: 5,
     },
     {
       id: 2,
-      image: "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg",
-      title: "What happened in Thailand?",
-      description: "Kayaks crowd Three Sisters Springs, where people and manatees maintain controversial coexistence.",
+      image: "https://images.pexels.com/photos/7661590/pexels-photo-7661590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "Brand Visiblity",
+      description: "Stand out with a strong and memorable presence among your competitors",
       rating: 5,
     },
     {
       id: 3,
-      image: "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg",
-      title: "What happened in Thailand?",
-      description: "Kayaks crowd Three Sisters Springs, where people and manatees maintain controversial coexistence.",
+      image: "https://images.pexels.com/photos/7598024/pexels-photo-7598024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "Growth Strategies",
+      description: "Smart, data-driven tactics for sustainable success and to reach your brand in heights",
       rating: 5,
     },
   ]
@@ -77,15 +77,15 @@ export default function CardSlider() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-100 to-white flex flex-col items-center justify-center p-8">
       <div className="relative mb-8 flex flex-col items-center gap-5">
-        <p className="font-general text-sm uppercase md:text-[10px]">Discover Amazing Stories</p>
+        <p className="font-general text-sm uppercase md:text-[10px]">Things a Brand Defines</p>
         <AnimatedTitle containerClass="!text-black" >
         {
-            "M<b>o</b>re on what we D<b>o</b> <br /> "
+            "Wh<b>a</b>T  we Pr<b>o</b>mise <br /> "
           }
           </AnimatedTitle>
         <div className="text-center max-w-xl">
-          <p className="font-circular-web text-lg">Explore our curated selection of fascinating stories from around the world</p>
-          <p className="font-circular-web text-lg ">Each card represents a journey waiting to be discovered</p>
+          <p className="font-circular-web text-lg">We’re not just another digital marketing agency that delivers leads.</p>
+          <p className="font-circular-web mt-3 text-lg ">We’re a creative agency that helps grow your business into a brand with unique strategies beyond digital marketing.</p>
         </div>
       </div>
       <div className="relative w-full max-w-4xl h-[500px] flex items-center justify-center overflow-hidden">
@@ -126,7 +126,7 @@ export default function CardSlider() {
 
               {/* Content */}
               <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold  text-gray-800 mb-2">{card.title}</h3>
+                <h3 className="text-2xl font-semibold  text-gray-800 mb-2">{card.title}</h3>
                 <p className="font-circular-web text-lg font-light mb-4">{card.description}</p>
                 
               </div>
